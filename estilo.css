@@ -1,0 +1,25 @@
+body {
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    padding: 50px;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    background: no-repeat;
+    background-size: cover;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #777;
+}
